@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments service</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <section class="chat-box">
+        <div class="chat-header">
+            <h1>Comments service with spam filter <i class="fa-regular fa-comments"></i></h1>
+        </div>
+        <div class="input-box">
+            <div class="input-box-content">
+                <label for="name-input">Enter your name:</label><br>
+                <input type="text" name="name" id="name-input" placeholder="Your first and last Name"><br>
+                <label for="name-checkbox">Show my name:</label>
+                <input type="checkbox" id="name-checkbox" checked>
+            </div>
+            <div class="input-box-content">
+                <label for="">Link to your avatar:</label><br>
+                <input type="text" name="link" id="avatar-input" placeholder="Example https://">
+            </div>
+            <textarea id="message-input" placeholder="Type your comment here" rows="6"></textarea>
+            <button type="button" id="send-button">Submit</button>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            <!-- Message container -->
+        </div>
+    </section>
+    <script src="script/script.js"></script>
+    <script src="https://kit.fontawesome.com/944885f069.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
